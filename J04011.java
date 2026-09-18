@@ -51,5 +51,6 @@ public class J04011 {
                 System.out.println("NO");
             }
         }
+        sc.close();
     }
 }

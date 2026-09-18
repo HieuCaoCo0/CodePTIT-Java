@@ -28,12 +28,8 @@ class Point{
     }
 }
 class Triangle{
-    // private Point p1, p2, p3;
     private double a, b, c;
     public Triangle(Point p1, Point p2, Point p3){
-        // this.p1 = p1;
-        // this.p2 = p2;
-        // this.p3 = p3;
         a = Point.distance(p1, p2);
         b = Point.distance(p2, p3);
         c = Point.distance(p1, p3);
